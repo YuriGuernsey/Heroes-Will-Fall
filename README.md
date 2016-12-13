@@ -1,2 +1,2 @@
-# Heroes-Will-Fall
-A dungeon bullet hell game 
+# Heroes Will Fall(HWF)
+## A Dungeon Bullet Hell Game, Made by 1 developer.
