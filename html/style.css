@@ -1,0 +1,199 @@
+/* All of the page style */
+
+body {
+    /* Sets the websites background colour to black */
+    background-color: black;
+    /* Sets the fonts colour to white */
+    color: white;
+    /* Sets the type of font used for the whole website */
+    font-family: 'Aref Ruqaa', serif;
+}
+
+
+/* Style for the Information and News column */
+
+.info_box {
+    /* Sets the position to the left */
+    float: left;
+    /* Sets the width of the whole columns */
+    width: 45%;
+    /* Sets the text within to the center of the column */
+    text-align: center;
+    /* Sets the borders thickness */
+    border-width: 3px;
+    /* Sets the border to look solid */
+    border-style: solid;
+    /* Sets the background of the column to white */
+    background-color: white;
+    /* Sets the colour of the text located within to black */
+    color: black;
+}
+
+
+/* Style for the Information and News column's paragraphs */
+
+.info_box p {
+    /* Sets the parsgraphs located within the column to position itself to the left of the column */
+    text-align: left;
+    /* Add a little more distance from the edge of the column */
+    margin-left: 5px;
+}
+
+
+/* Style for the Update column */
+
+.update_box {
+    float: left;
+    width: 45%;
+    margin-left: 5%;
+    text-align: center;
+    border-width: 3px;
+    border-style: solid;
+    background-color: white;
+    color: black;
+}
+
+
+/* Style for the Update column's paragraphs */
+
+.update_box p {
+    text-align: left;
+    margin-left: 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+#ctx {
+    background-color: white;
+}
+
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content/Box */
+
+.modal-content {
+    margin: 15% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+    margin-left: 20%;
+    width: 55%;
+}
+
+
+/* The Modal Close Button */
+
+.close {
+    color: #FFFFFF;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-bckg {
+    background-image: url(../images/scroll.png);
+    background-repeat: no-repeat;
+    background-position: 0px 5px;
+    background-size: 100%;
+    height: 200%;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    color: black;
+}
+
+.h4-MI {
+    font-family: 'Homemade Apple', cursive;
+}
+
+.modal-body {
+    padding: 2px 16px;
+    color: black;
+    font-family: 'Aref Ruqaa', serif;
+    margin-top: 25%
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    color: black;
+    font-family: 'Aref Ruqaa', serif;
+}
+
+
+/* Add Animation */
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+/*Style for the progress bar*/
+
+progress {
+    width: 90%;
+}
+
+
+/* Style for the websites footer (bottom of the page) */
+
+footer {
+    background-color: white;
+    color: black;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 5px;
+}
+
+.intro {
+    float: left;
+}

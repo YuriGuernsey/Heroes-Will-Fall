@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <!-- Description of the site -->
+    <meta name="description" content="Heroes Will Fall, is an MMORPG ">
+    <!-- Keywords for the site -->
+    <meta name="keywords" content="HWF, Heroes, Will, Fall, Yuri Alves, MMORPG, 8-bit, Bullet Hell, Levels, Dungeon Crawler">
+    <!-- Name of the Person who created the site -->
+    <meta name="author" content="Yuri Alves">
+    <!-- Makes the site more responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heroes Will Fall</title>
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa|Homemade+Apple" rel="stylesheet"> </head>
+
+<body onload="insertText();">
+    <!-- Nav Bar -->
+    <nav>
+        <!-- Heroes Will Fall Logo --><img src="http://placehold.it/140x100" /> </nav>
+    <!-- End of Nav Bar -->
+    <!-- Game window -->
+    <center>
+        <canvas id="ctx" width="900" height="500" style="border:1px solid #FFFFFF"> </canvas>
+    </center>
+    <hr />
+    <br />
+    <!-- End of Game window -->
+    <!-- Info and Updates -->
+    <div class="info_box">
+        <h1>Information and News</h1>
+        <hr />
+        <!-- Progress bar of how far the game has gotten till the game is complete -->
+        <center>
+            <h4>% of game completed</h4> </center>
+        <p>The game is currently <b><em>5%</em></b> done</p>
+        <progress value="5" max="100">5% Done</progress>
+        <hr />
+        <center>
+            <!-- Basic information about the game -->
+            <h4>What does HWF stand for?</h4> </center>
+        <p>HWF stands for, Heroes will fall.</p>
+        <hr />
+        <center>
+            <h4>What is HWF</h4> </center>
+        <p>HWF is a dungeon perma-death bullet hell game.</p>
+        <br/>
+        <p>You can play as multiple characters and fight against multiple enemies that you encounter throughout the dungeons</p>
+        <hr />
+        <h4>What is HWF</h4>
+        <p>HWF is a dungeon perma-death bullet hell game.</p>
+        <br/>
+        <p>You can play as multiple characters and fight against multiple enemies that you encounter throughout the dungeons</p>
+        <hr /> </div>
+    <div class="update_box">
+        <!-- Update summary is displayed here -->
+        <h1>Game Updates</h1>
+        <hr />
+        <center>
+            <h4>Welcome to the HWF beta</h4> </center>
+        <p class="intro">Hello</p>
+        <!-- Displays the users name here -->
+        <p id="User-name" class="intro"></p>
+        <p class="intro"> I King Y.A, welcome you to the HWF beta.</p>
+        <div class="clear"></div>
+        <!-- Button that opens the update modal window -->
+        <button id="myBtn">More Information</button>
+        <!-- Info window -->
+        <div id="myModal" class="modal">
+            <!-- Info window content -->
+            <div class="modal-bckg">
+                <div class="modal-content">
+                    <!-- Info Window Title -->
+                    <div class="modal-header"> <span class="close">&times;</span>
+                        <br/> </div>
+                    <!-- Update info window body -->
+                    <div class="modal-body">
+                        <h2 class="h4-MI">Lorem Ipsum</h2>
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eros vehicula, ultricies risus eget, fringilla sem. Sed vehicula nulla eget ipsum finibus, ac euismod odio aliquet. Donec malesuada, nibh sed gravida placerat, sapien tortor hendrerit ex, sit amet mollis lectus risus vitae augue. Vivamus eros ligula, fermentum quis aliquet ac, aliquam eu diam. Pellentesque vel mollis risus. Vestibulum fringilla nibh hendrerit sodales vulputate. Duis iaculis nisi congue, viverra justo eu, placerat eros. Duis vel purus porta urna varius finibus. Nulla at ipsum vitae est suscipit sollicitudin. Donec non ante erat. Donec velit enim, molestie sit amet diam ac, consequat ultrices lectus. Nullam sagittis justo nibh, quis consequat neque porttitor molestie. Vestibulum enim orci, viverra vel sollicitudin et, eleifend eu lacus. Ut libero magna, pretium et pellentesque a, mattis quis leo. Sed rutrum nisl posuere, molestie elit et, condimentum ex. Quisque ut malesuada mi. Vivamus tellus leo, viverra sit amet sodales sit amet, dignissim interdum magna. Fusce magna nibh, sollicitudin dictum sagittis in, mattis in libero. Duis pulvinar gravida augue ut placerat. Donec augue risus, aliquam nec elit vitae, ullamcorper ultrices justo.</p>
+                        <p>Lorem Ipsum:</p>
+                        <ul>
+                            <li>
+                                <p>Lorem Ipsum</p>
+                            </li>
+                            <li>Lorem Ipsum</li>
+                        </ul>
+                        <br />
+                        <h3>From King Y.A</h3>
+                        <h5>Go fourth and fight brave ones, I shall see you soon</h5> </div>
+                    <!-- Info window footer -->
+                    <div class="modal-footer">
+                        <br/> </div>
+                </div>
+            </div>
+        </div>
+        <hr /> </div>
+    <div class="clear"></div>
+    <!-- End of Info and Updates -->
+    <footer>
+        <center>
+            <!-- External links --><a href="http://hwf.wikia.com/" target="_blank">Wiki</a>
+            <!-- External link to the developers portfolio --><a href="https://chuckykillr.github.io/" target="_blank">Developer</a> </center>
+    </footer>
+</body>
+<!-- Scripts -->
+<script src="../Js/functions.js"></script>
+<script src="../Js/Game.js"></script>
+<script src="../Js/cookies.js"></script>
+<script src="../Js/modal-window.js"></script>
+
+</html>

@@ -1,0 +1,18 @@
+ <html>
+ <head>
+    <title>Z Test</title>
+ </head>
+ <body>
+
+<div id="img_home"></div>
+
+<button onclick="addimage()" type="button">Add an image</button>
+
+<script>
+function addimage() {
+    var img = new Image();
+    img.src = "https://www.google.com/images/srpr/logo4w.png"
+    img_home.appendChild(img);
+}
+</script>
+</body>
