@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <!-- Description of the site -->
+    <meta name="description" content="Heroes Will Fall, is an MMORPG ">
+    <!-- Keywords for the site -->
+    <meta name="keywords" content="HWF, Heroes, Will, Fall, Yuri Alves, MMORPG, 8-bit, Bullet Hell, Levels, Dungeon Crawler">
+    <!-- Name of the Person who created the site -->
+    <meta name="author" content="Yuri Alves">
+    <!-- Makes the site more responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in & Sign Up | Heroes Will Fall</title>
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="index.css">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa|Homemade+Apple" rel="stylesheet"> </head>
+
+<body>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+
+    <body>
+        <div class="cotn_principal">
+            <div class="cont_centrar">
+                <div class="cont_login">
+                    <div class="cont_info_log_sign_up">
+                        <div class="col_md_login">
+                            <div class="cont_ba_opcitiy"> <img src="images/Bonus_items/GIF/coin.gif" />
+                                <h2>LOGIN</h2>
+                                <p>Login into Heroes Will Fall </p>
+                                <button class="btn_login" onclick="cambiar_login()">LOGIN</button>
+                            </div>
+                        </div>
+                        <div class="col_md_sign_up">
+                            <div class="cont_ba_opcitiy"> <img src="images/Bonus_items/GIF/treasure_chest.gif" />
+                                <h2>SIGN UP</h2>
+                                <p>Sign up to join Heroes Will Fall</p>
+                                <button class="btn_sign_up" onclick="cambiar_sign_up()">SIGN UP</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cont_back_info">
+                        <div class="cont_img_back_grey"> <img src="http://placehold.it/1199x1812" alt="" /> </div>
+                    </div>
+                    <div class="cont_forms">
+                        <div class="cont_img_back_"> <img src="http://placehold.it/1199x1812" alt="" /> </div>
+                        <div class="cont_form_login"> <a href="#" onclick="ocultar_login_sign_up()"><i class="material-icons">&#xE5C4;</i></a>
+                            <h2>LOGIN</h2>
+                            <input type="text" placeholder="Email" required/>
+                            <input type="password" placeholder="Password" required/>
+                            <button class="btn_login" onclick="Login()">LOGIN</button>
+                        </div>
+                        <div class="cont_form_sign_up"> <a href="#" onclick="ocultar_login_sign_up()"><i class="material-icons">&#xE5C4;</i></a>
+                            <h2>SIGN UP</h2>
+                            <input type="text" placeholder="Email" required />
+                            <input type="text" placeholder="User" required/>
+                            <input type="password" placeholder="Password" required/>
+                            <input type="password" placeholder="Confirm Password" required/>
+                            <button class="btn_sign_up" onclick="Signup()">SIGN UP</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="Js/index.js"></script>
+    </body>
+</body>
+
+</html>
